@@ -1,0 +1,23 @@
+{
+  "name": "controll-mihome",
+  "version": "1.0.0",
+  "description": "First test for controll my air purifier",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "author": "twopill",
+  "license": "ISC",
+  "dependencies": {
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-syntax-class-properties": "^6.13.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "node-mihome": "0.0.27"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.16",
+    "eslint": "^7.16.0",
+    "lite-server": "^2.6.1"
+  }
+}
